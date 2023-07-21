@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Estedad;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/Font/webfonts/statics/Estedad-Bold.woff2") format("woff2"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: Estedad;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/Font/webfonts/statics/Estedad-Regular.woff2")
+    format("woff2"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+body,
+button {
+  font-family: "Vazir";
+}
