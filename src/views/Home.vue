@@ -7,7 +7,7 @@
 
 <script setup>
 import NavBar from "@/components/NavBar.vue";
-import MainPage from "@/components/MainPage.vue";
+import MainPage from "@/pages/MainPage.vue";
 components: {
   NavBar;
   MainPage
