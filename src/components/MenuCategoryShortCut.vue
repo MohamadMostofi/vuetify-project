@@ -3,7 +3,7 @@
     <v-container>
       <div class="d-flex justify-center">
         <v-card
-          class="mx-3"
+          class="mx-3 card"
           height="370px "
           width="300px"
           align="center"
@@ -19,7 +19,7 @@
           </div>
         </v-card>
         <v-card
-          class="mx-3"
+          class="mx-3 card"
           height="370px"
           width="300px"
           align="center"
@@ -35,7 +35,7 @@
           </div>
         </v-card>
         <v-card
-          class="mx-3"
+          class="mx-3 card"
           height="370px"
           width="300px"
           align="center"
@@ -51,7 +51,7 @@
           </div>
         </v-card>
         <v-card
-          class="mx-3"
+          class="mx-3 card"
           height="370px"
           width="300px"
           align="center"
@@ -76,6 +76,13 @@ export default {};
 </script>
 
 <style scoped>
+.card {
+  transition-duration: 500ms;
+  transition-property: all;
+}
+.card:hover {
+  transform: translatey(-20px) scale(1.05);
+}
 .btn {
   font-size: 1rem;
   color: #fff;
