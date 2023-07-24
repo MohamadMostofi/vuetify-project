@@ -1,47 +1,73 @@
 <template>
   <v-locale-provider rtl>
-    <div class="d-flex justify-space-evenly">
-      <v-card height="400px" width="300px" align="center" variant="text">
-        <div class="b">
-          <v-img
-            class="pic"
-            src="../assets/MenuCategoryShortCut1.png"
-            width="300px"
-          ></v-img>
-          <button class="btn">غذای اصلی</button>
-        </div>
-      </v-card>
-      <v-card height="400px" width="300px" align="center" variant="text">
-        <div class="b">
-          <v-img
-            class="pic"
-            src="../assets/MenuCategoryShortCut2.png"
-            width="300px"
-          ></v-img>
-          <button class="btn">پیش غذا</button>
-        </div>
-      </v-card>
-      <v-card height="400px" width="300px" align="center" variant="text">
-        <div class="b">
-          <v-img
-            class="pic"
-            src="../assets/MenuCategoryShortCut3.png"
-            width="300px"
-          ></v-img>
-          <button class="btn">دسر</button>
-        </div>
-      </v-card>
-      <v-card height="400px" width="300px" align="center" variant="text">
-        <div class="b">
-          <v-img
-            class="pic"
-            src="../assets/MenuCategoryShortCut4.png"
-            width="300px"
-          ></v-img>
-          <button class="btn">نوشیدنی</button>
-        </div>
-      </v-card>
-    </div>
+    <v-container>
+      <div class="d-flex justify-center">
+        <v-card
+          class="mx-3"
+          height="370px "
+          width="300px"
+          align="center"
+          variant="text"
+        >
+          <div class="b">
+            <v-img
+              class="pic"
+              src="../assets/MenuCategoryShortCut1.png"
+              width="300px"
+            ></v-img>
+            <button class="btn">غذای اصلی</button>
+          </div>
+        </v-card>
+        <v-card
+          class="mx-3"
+          height="370px"
+          width="300px"
+          align="center"
+          variant="text"
+        >
+          <div class="b">
+            <v-img
+              class="pic pic2"
+              src="../assets/MenuCategoryShortCut2.png"
+              width="300px"
+            ></v-img>
+            <button class="btn">پیش غذا</button>
+          </div>
+        </v-card>
+        <v-card
+          class="mx-3"
+          height="370px"
+          width="300px"
+          align="center"
+          variant="text"
+        >
+          <div class="b">
+            <v-img
+              class="pic"
+              src="../assets/MenuCategoryShortCut3.png"
+              width="300px"
+            ></v-img>
+            <button class="btn">دسر</button>
+          </div>
+        </v-card>
+        <v-card
+          class="mx-3"
+          height="370px"
+          width="300px"
+          align="center"
+          variant="text"
+        >
+          <div class="b">
+            <v-img
+              class="pic"
+              src="../assets/MenuCategoryShortCut4.png"
+              width="300px"
+            ></v-img>
+            <button class="btn">نوشیدنی</button>
+          </div>
+        </v-card>
+      </div>
+    </v-container>
   </v-locale-provider>
 </template>
 
@@ -53,7 +79,9 @@ export default {};
 .btn {
   font-size: 1rem;
   color: #fff;
-  padding: 0.5rem 2rem;
+  width: 8rem;
+  height: 2.5rem;
+  /* padding: 0.5rem 2rem; */
   border-radius: 8px;
   background-color: #417f56;
   position: absolute;
@@ -74,9 +102,12 @@ export default {};
 }
 
 .pic {
-  scale: 1.5;
+  scale: 1.3;
   top: -50%;
   left: 0%;
   transform: translate(0%, 0%);
+}
+.pic2 {
+  left: 2%;
 }
 </style>

@@ -1,11 +1,11 @@
 <template>
   <v-locale-provider rtl>
     <v-toolbar
-      height="115"
+      height="90"
       color="#fff"
       class="d-flex align-content-space-around justify-space-evenly"
     >
-      <v-img height="49" width="152" src="../assets/Logo.svg"></v-img>
+      <v-img height="40" width="152" src="../assets/Logo.svg"></v-img>
 
       <v-row class="justify-space-evenly" no-gutters>
         <v-toolbar-title class="d-flex justify-center"
