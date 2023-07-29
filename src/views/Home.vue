@@ -1,24 +1,25 @@
 <template>
   <div>
     <NavBar />
-    <MainPage/>
-    <MainPageBranch/>
+    <MainPage />
+    <Footer />
   </div>
 </template>
 
 <script setup>
 import NavBar from "@/components/NavBar.vue";
 import MainPage from "@/pages/MainPage.vue";
-import MainPageBranch from "@/components/MainPageBranch.vue";
+import Footer from "@/components/Footer.vue";
+
 components: {
   NavBar;
   MainPage;
-  MainPageBranch
+  Footer;
 }
 </script>
 
 <style>
-body{
-  font-family: 'Estedad';
+body {
+  font-family: "Estedad";
 }
 </style>
